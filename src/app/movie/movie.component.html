@@ -1,0 +1,6 @@
+<div class="show-container">
+    <div class="show" *ngFor='let movie of movies'>
+        <img [src]='movie.imageUrl'>
+        <h2>{{movie.name}}</h2>
+    </div>
+</div>

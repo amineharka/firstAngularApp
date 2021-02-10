@@ -1,0 +1,19 @@
+<nav id="topNav">
+    <a [routerLink]="['/welcom']">Home</a>
+    <a [routerLink]="['/anime']">Anime</a>
+    <a [routerLink]="['/serie']">Series</a>
+    <a [routerLink]="['/movie']">Movies</a>
+    <a class="icon" (click)="myFunction()"><i class="fas fa-bars"></i></a>
+</nav>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+<footer>
+    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    <i class="fa fa-github" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-snapchat" aria-hidden="true"></i>
+</footer>
+
+
+

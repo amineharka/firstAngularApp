@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+.show{
+    width:250px;
+    background-color: aqua;
+    text-align: center;
+    margin:16px;
+    display: inline-block;
+}
+
+img{
+    width:100%;
+}

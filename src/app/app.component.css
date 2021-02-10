@@ -1,0 +1,76 @@
+
+/********************** nav Styles********************************/
+nav{
+    background-color: #cb997e;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+}
+
+nav a{
+    font-size:18px;
+    display : block;
+    float:left;
+    cursor: pointer;
+    padding:5px 14px;
+    margin: 4px 20px;
+}
+nav a:hover{
+    background-color: #eddcd2;
+}
+
+nav .icon{
+    display : none;
+}
+
+@media only screen and (max-width: 600px)
+{
+    nav{
+        position:relative;
+    }
+    nav a:not(:first-child)
+    {
+        display: none;
+    }
+    nav a.icon{
+        display : block;
+        position:absolute;
+        top:0px;
+        right:0px;
+    } 
+
+    nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+}
+
+/********************** container Styles********************************/
+.container{
+    max-width: 1000px;
+    background-color: #eddcd2;
+    margin:0 auto;
+    padding:70px 16px 0px;
+    text-align: center;
+}
+
+
+/********************** footer Styles********************************/
+footer{
+    background-color: #cb997e;
+    padding:30px 0px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+footer i{
+    color:white;
+    font-size: 25px;
+}
+
+footer i:hover{
+    color:yellow;
+    cursor:pointer;
+}
+
